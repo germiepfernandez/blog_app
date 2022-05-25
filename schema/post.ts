@@ -15,3 +15,8 @@ export interface Post extends GraphQLData {
         raw: RichTextContent;
     };
 }
+
+export interface AjacentPost {
+    next: Post;
+    previous: Post;
+}

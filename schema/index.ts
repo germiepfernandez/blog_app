@@ -1,7 +1,7 @@
 import { Author } from './author';
 import { Comment } from './comment';
 import { Category } from './category';
-import { Post } from './post';
+import { Post, AjacentPost } from './post';
 import {
     GraphQLData,
     GraphQLFetchResponse,
@@ -13,6 +13,7 @@ export type {
     Comment,
     Category,
     Post,
+    AjacentPost,
     GraphQLData,
     GraphQLFetchResponse,
     GraphQLConnectionResponse,

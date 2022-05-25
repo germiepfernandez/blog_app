@@ -6,6 +6,7 @@ import {
     getRecentPosts,
     getSimilarPosts,
     getFeaturedPosts,
+    getAdjacentPosts
 } from './post';
 
 export {
@@ -14,6 +15,7 @@ export {
     getRecentPosts,
     getSimilarPosts,
     getFeaturedPosts,
+    getAdjacentPosts,
 
     getCategories,
     getCategoryPost,
